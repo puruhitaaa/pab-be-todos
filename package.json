@@ -2,9 +2,6 @@
   "name": "hono",
   "type": "module",
   "scripts": {
-    "dev": "vc dev",
-    "build": "vc build",
-    "deploy": "vc deploy",
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",

@@ -226,6 +226,7 @@ src/
 - All timestamps are in ISO 8601 format
 - Database schema is automatically managed via Drizzle migrations
 - CORS is handled by Hono's default settings
+- **Important**: Use Vercel CLI commands (`vc dev`, `vc build`, `vc deploy`) directly, not as npm scripts in package.json, as this can cause deployment errors on Vercel
 
 For more information about Hono: https://hono.dev
 For Drizzle ORM docs: https://orm.drizzle.team
